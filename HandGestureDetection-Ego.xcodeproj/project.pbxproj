@@ -12,6 +12,29 @@
 		3E7582F6220E107500E5AABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7582F4220E107500E5AABB /* Main.storyboard */; };
 		3E7582F8220E107600E5AABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7582F7220E107600E5AABB /* Assets.xcassets */; };
 		3E7582FB220E107600E5AABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7582F9220E107600E5AABB /* LaunchScreen.storyboard */; };
+		3E758309220E230000E5AABB /* one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E758308220E230000E5AABB /* one.jpg */; };
+		3E81B4492212F66200D2D38A /* GestureNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B4482212F66200D2D38A /* GestureNet.mlmodel */; };
+		3E81B44B2212F87700D2D38A /* RecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B44A2212F87700D2D38A /* RecognitionViewController.swift */; };
+		3E81B45A22130B2000D2D38A /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B44D22130B2000D2D38A /* Array+Extensions.swift */; };
+		3E81B45B22130B2000D2D38A /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B44E22130B2000D2D38A /* Math.swift */; };
+		3E81B45C22130B2000D2D38A /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B44F22130B2000D2D38A /* UIImage+CVPixelBuffer.swift */; };
+		3E81B45D22130B2000D2D38A /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B45022130B2000D2D38A /* Predictions.swift */; };
+		3E81B45E22130B2000D2D38A /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B45122130B2000D2D38A /* UIImage+Extensions.swift */; };
+		3E81B45F22130B2000D2D38A /* CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B45222130B2000D2D38A /* CGImagePropertyOrientation.swift */; };
+		3E81B46022130B2000D2D38A /* UIImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B45322130B2000D2D38A /* UIImage+RawBytes.swift */; };
+		3E81B46122130B2000D2D38A /* MLMultiArray+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B45422130B2000D2D38A /* MLMultiArray+Helpers.swift */; };
+		3E81B46222130B2000D2D38A /* CVPixelBuffer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B45522130B2000D2D38A /* CVPixelBuffer+Helpers.swift */; };
+		3E81B46322130B2000D2D38A /* CGImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B45622130B2000D2D38A /* CGImage+CVPixelBuffer.swift */; };
+		3E81B46422130B2000D2D38A /* NonMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B45722130B2000D2D38A /* NonMaxSuppression.swift */; };
+		3E81B46522130B2000D2D38A /* CGImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B45822130B2000D2D38A /* CGImage+RawBytes.swift */; };
+		3E81B46622130B2000D2D38A /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B45922130B2000D2D38A /* MLMultiArray+Image.swift */; };
+		3E81B46C22131FCE00D2D38A /* five.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E81B46722131FCE00D2D38A /* five.jpg */; };
+		3E81B46D22131FCE00D2D38A /* good.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E81B46822131FCE00D2D38A /* good.jpg */; };
+		3E81B46E22131FCE00D2D38A /* bad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E81B46922131FCE00D2D38A /* bad.jpg */; };
+		3E81B46F22131FCE00D2D38A /* three.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E81B46A22131FCE00D2D38A /* three.jpg */; };
+		3E81B47022131FCE00D2D38A /* two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E81B46B22131FCE00D2D38A /* two.jpg */; };
+		3E81B472221322A600D2D38A /* GestureNetNoGarbage.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B471221322A600D2D38A /* GestureNetNoGarbage.mlmodel */; };
+		3E81B474221465E000D2D38A /* GestureNetMini.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3E81B473221465E000D2D38A /* GestureNetMini.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +45,29 @@
 		3E7582F7220E107600E5AABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E7582FA220E107600E5AABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E7582FC220E107600E5AABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E758308220E230000E5AABB /* one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one.jpg; sourceTree = "<group>"; };
+		3E81B4482212F66200D2D38A /* GestureNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GestureNet.mlmodel; sourceTree = "<group>"; };
+		3E81B44A2212F87700D2D38A /* RecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionViewController.swift; sourceTree = "<group>"; };
+		3E81B44D22130B2000D2D38A /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		3E81B44E22130B2000D2D38A /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		3E81B44F22130B2000D2D38A /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		3E81B45022130B2000D2D38A /* Predictions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
+		3E81B45122130B2000D2D38A /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		3E81B45222130B2000D2D38A /* CGImagePropertyOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImagePropertyOrientation.swift; sourceTree = "<group>"; };
+		3E81B45322130B2000D2D38A /* UIImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RawBytes.swift"; sourceTree = "<group>"; };
+		3E81B45422130B2000D2D38A /* MLMultiArray+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Helpers.swift"; sourceTree = "<group>"; };
+		3E81B45522130B2000D2D38A /* CVPixelBuffer+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Helpers.swift"; sourceTree = "<group>"; };
+		3E81B45622130B2000D2D38A /* CGImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		3E81B45722130B2000D2D38A /* NonMaxSuppression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonMaxSuppression.swift; sourceTree = "<group>"; };
+		3E81B45822130B2000D2D38A /* CGImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+RawBytes.swift"; sourceTree = "<group>"; };
+		3E81B45922130B2000D2D38A /* MLMultiArray+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Image.swift"; sourceTree = "<group>"; };
+		3E81B46722131FCE00D2D38A /* five.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = five.jpg; sourceTree = "<group>"; };
+		3E81B46822131FCE00D2D38A /* good.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = good.jpg; sourceTree = "<group>"; };
+		3E81B46922131FCE00D2D38A /* bad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bad.jpg; sourceTree = "<group>"; };
+		3E81B46A22131FCE00D2D38A /* three.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = three.jpg; sourceTree = "<group>"; };
+		3E81B46B22131FCE00D2D38A /* two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = two.jpg; sourceTree = "<group>"; };
+		3E81B471221322A600D2D38A /* GestureNetNoGarbage.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GestureNetNoGarbage.mlmodel; sourceTree = "<group>"; };
+		3E81B473221465E000D2D38A /* GestureNetMini.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GestureNetMini.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +100,45 @@
 		3E7582EF220E107500E5AABB /* HandGestureDetection-Ego */ = {
 			isa = PBXGroup;
 			children = (
+				3E81B473221465E000D2D38A /* GestureNetMini.mlmodel */,
+				3E81B471221322A600D2D38A /* GestureNetNoGarbage.mlmodel */,
+				3E81B46922131FCE00D2D38A /* bad.jpg */,
+				3E81B46722131FCE00D2D38A /* five.jpg */,
+				3E81B46822131FCE00D2D38A /* good.jpg */,
+				3E81B46A22131FCE00D2D38A /* three.jpg */,
+				3E81B46B22131FCE00D2D38A /* two.jpg */,
+				3E81B44C22130B2000D2D38A /* CoreMLHelpers */,
+				3E81B4482212F66200D2D38A /* GestureNet.mlmodel */,
+				3E758308220E230000E5AABB /* one.jpg */,
 				3E7582F0220E107500E5AABB /* AppDelegate.swift */,
 				3E7582F2220E107500E5AABB /* ViewController.swift */,
 				3E7582F4220E107500E5AABB /* Main.storyboard */,
 				3E7582F7220E107600E5AABB /* Assets.xcassets */,
 				3E7582F9220E107600E5AABB /* LaunchScreen.storyboard */,
 				3E7582FC220E107600E5AABB /* Info.plist */,
+				3E81B44A2212F87700D2D38A /* RecognitionViewController.swift */,
 			);
 			path = "HandGestureDetection-Ego";
+			sourceTree = "<group>";
+		};
+		3E81B44C22130B2000D2D38A /* CoreMLHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				3E81B44D22130B2000D2D38A /* Array+Extensions.swift */,
+				3E81B44E22130B2000D2D38A /* Math.swift */,
+				3E81B44F22130B2000D2D38A /* UIImage+CVPixelBuffer.swift */,
+				3E81B45022130B2000D2D38A /* Predictions.swift */,
+				3E81B45122130B2000D2D38A /* UIImage+Extensions.swift */,
+				3E81B45222130B2000D2D38A /* CGImagePropertyOrientation.swift */,
+				3E81B45322130B2000D2D38A /* UIImage+RawBytes.swift */,
+				3E81B45422130B2000D2D38A /* MLMultiArray+Helpers.swift */,
+				3E81B45522130B2000D2D38A /* CVPixelBuffer+Helpers.swift */,
+				3E81B45622130B2000D2D38A /* CGImage+CVPixelBuffer.swift */,
+				3E81B45722130B2000D2D38A /* NonMaxSuppression.swift */,
+				3E81B45822130B2000D2D38A /* CGImage+RawBytes.swift */,
+				3E81B45922130B2000D2D38A /* MLMultiArray+Image.swift */,
+			);
+			path = CoreMLHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +199,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E81B46D22131FCE00D2D38A /* good.jpg in Resources */,
 				3E7582FB220E107600E5AABB /* LaunchScreen.storyboard in Resources */,
+				3E81B46C22131FCE00D2D38A /* five.jpg in Resources */,
+				3E758309220E230000E5AABB /* one.jpg in Resources */,
 				3E7582F8220E107600E5AABB /* Assets.xcassets in Resources */,
+				3E81B46E22131FCE00D2D38A /* bad.jpg in Resources */,
 				3E7582F6220E107500E5AABB /* Main.storyboard in Resources */,
+				3E81B47022131FCE00D2D38A /* two.jpg in Resources */,
+				3E81B46F22131FCE00D2D38A /* three.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +218,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E81B45D22130B2000D2D38A /* Predictions.swift in Sources */,
 				3E7582F3220E107500E5AABB /* ViewController.swift in Sources */,
+				3E81B45A22130B2000D2D38A /* Array+Extensions.swift in Sources */,
+				3E81B46222130B2000D2D38A /* CVPixelBuffer+Helpers.swift in Sources */,
 				3E7582F1220E107500E5AABB /* AppDelegate.swift in Sources */,
+				3E81B472221322A600D2D38A /* GestureNetNoGarbage.mlmodel in Sources */,
+				3E81B46022130B2000D2D38A /* UIImage+RawBytes.swift in Sources */,
+				3E81B44B2212F87700D2D38A /* RecognitionViewController.swift in Sources */,
+				3E81B46322130B2000D2D38A /* CGImage+CVPixelBuffer.swift in Sources */,
+				3E81B46622130B2000D2D38A /* MLMultiArray+Image.swift in Sources */,
+				3E81B45C22130B2000D2D38A /* UIImage+CVPixelBuffer.swift in Sources */,
+				3E81B45F22130B2000D2D38A /* CGImagePropertyOrientation.swift in Sources */,
+				3E81B474221465E000D2D38A /* GestureNetMini.mlmodel in Sources */,
+				3E81B46522130B2000D2D38A /* CGImage+RawBytes.swift in Sources */,
+				3E81B45E22130B2000D2D38A /* UIImage+Extensions.swift in Sources */,
+				3E81B4492212F66200D2D38A /* GestureNet.mlmodel in Sources */,
+				3E81B46122130B2000D2D38A /* MLMultiArray+Helpers.swift in Sources */,
+				3E81B46422130B2000D2D38A /* NonMaxSuppression.swift in Sources */,
+				3E81B45B22130B2000D2D38A /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
